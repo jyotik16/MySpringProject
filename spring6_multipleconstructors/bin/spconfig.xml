@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean class="com.DemoBean" id="id1">
+<constructor-arg>
+<value>
+Welcome to NewYork
+</value>
+</constructor-arg>
+</bean>
+<!-- call only one arg contructor  -->
+<bean class="com.DemoBean" id="id2">
+<constructor-arg>
+<value>Ankita</value>
+</constructor-arg>
+
+<constructor-arg>
+<value>@123</value>
+</constructor-arg>
+
+</bean>
+</beans>

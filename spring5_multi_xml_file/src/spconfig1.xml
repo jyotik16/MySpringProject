@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean class="com.Car" id="id1">
+
+<property value="Amit" name="dname"/>
+
+<property value="DL HS 3234" name="car_num"/>
+
+</bean>
+
+<bean class="com.Bike" id="id2">
+<property name="bname">
+<value>Deepak</value>
+</property>
+<property name="bike_num">
+<value>DL HE 1037</value>
+</property>
+</bean>
+
+</beans>

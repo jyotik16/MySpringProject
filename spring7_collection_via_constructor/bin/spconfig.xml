@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean class="com.DemoBean" id="id1">
+<constructor-arg>
+<set>
+<value>Aman</value>
+<value>101</value>
+<value>MN2</value>
+</set>
+</constructor-arg>
+</bean>
+
+<bean class="com.DemoBean" id="id2">
+<constructor-arg>
+<map>
+<entry key="1" value="Aman" />
+<entry key="2" value="Anu" />
+<entry key="3" value="Avni" />
+<entry key="4" value="Arjun" />
+</map>
+</constructor-arg>
+</bean>
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<!-- <bean class="com.DemoBean2" id="id2">
+<constructor-arg>
+<list>
+<value>ABC</value>
+<value>EFG</value>
+<value>XYZ</value>
+</list>
+</constructor-arg>
+</bean> -->
+
+<bean class="com.DemoBean2" id="id2">
+<constructor-arg>
+<list>
+<value>5000</value>
+<value>4000</value>
+<value>1000</value>
+</list>
+</constructor-arg>
+</bean>
+
+</beans>

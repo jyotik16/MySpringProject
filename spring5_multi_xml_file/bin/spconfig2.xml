@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+<bean class="com.Traveller" id="t">
+<property name="v">
+<ref parent="id1"/> <!--id2 call Bike Object where as id1 call Car Object  -->
+</property>
+</bean>
+</beans>

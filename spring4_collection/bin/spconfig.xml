@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+
+<beans>
+
+<!-- <bean id="id1"  class="com.Test">
+<property name="s">
+<set>
+<value>101</value>
+<value>Aman</value>
+<value>YK</value>
+<value>107</value>
+</set>
+</property>
+</bean> -->
+
+<bean id="id1" class="com.Test">
+<property name="map">
+<map>
+<entry key="1" value="Aman" />
+<entry key="2" value="Anu" />
+<entry key="3" value="Avni" />
+<entry key="4" value="Arjun" />
+</map>
+</property>
+</bean>
+
+</beans>

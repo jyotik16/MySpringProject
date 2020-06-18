@@ -8,7 +8,7 @@
 	<version>2.3.0.RELEASE</version>
 	<packaging>jar</packaging>
 
-	<name>hibernate-basic-cruddemo</name>
+	<name>spring-boot-hibernate-basic-cruddemo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
